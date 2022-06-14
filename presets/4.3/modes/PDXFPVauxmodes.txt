@@ -8,8 +8,6 @@
 
 # aux switch settings
 
-# aux
-# aux
 aux 0 0 0 1925 2000 0 0
 aux 1 0 0 1825 1900 0 0
 aux 2 0 0 1725 1800 0 0
@@ -63,4 +61,3 @@ adjrange 26 0 0 900 900 0 0 0 0
 adjrange 27 0 0 900 900 0 0 0 0
 adjrange 28 0 0 900 900 0 0 0 0
 adjrange 29 0 0 900 900 0 0 0 0
-
