@@ -121,11 +121,13 @@
       "BMSThomas",
       "ctzsnooze",
       "Directory",
+      "DusKing1 (Hugo Chiang), Pitronic",
       "Evan Turner (Headsup)",
       "IllusionFpv",
       "Ivan Efimov (Limon)",
       "Joshua Bardwell",
       "Mark Spatz (UAV Tech)",
+      "MaxWhalen",
       "MinChan Kim",
       "NemesisXB",
       "sugarK",
@@ -158,6 +160,7 @@
       "basic",
       "betaflight",
       "blackbox",
+      "BMI270",
       "BMSThomas",
       "camera",
       "camera_control",
@@ -193,6 +196,9 @@
       "freesytle",
       "frsky",
       "GPS",
+      "gyro",
+      "gyros",
+      "gyroscope",
       "HD",
       "HD_freestyle",
       "HDzero",
@@ -249,6 +255,7 @@
       "SA 2.0 lite",
       "SA 2.1",
       "sbus",
+      "settings",
       "shames",
       "shark bite",
       "smooth",
@@ -292,6 +299,51 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/filters/BMI270.txt",
+      "hash": "af69e3c94ef3dcdd2fca5906292a0dbcf4e4ac1cf74a35860d379cd9e5436c4f",
+      "options": [
+        {
+          "name": "BMI270 Clean build without RPM filters",
+          "checked": false
+        },
+        {
+          "name": "BMI270 Clean build with RPM filters DSHOT300",
+          "checked": false
+        },
+        {
+          "name": "BMI270 Clean build with RPM filters DSHOT600",
+          "checked": false
+        }
+      ],
+      "title": "4.3 Filter settings for BMI270 gyroscope",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "BMI270",
+        "filter",
+        "filters",
+        "gyroscope",
+        "gyro",
+        "gyros",
+        "settings",
+        "RPM"
+      ],
+      "author": "DusKing1 (Hugo Chiang), Pitronic",
+      "description": [
+        "These settings are for BMI270 gyroscope only.",
+        "With only these settings, the BMI270 will give a nice output and control performance.",
+        "Please check the available options in this preset."
+      ],
+      "discussion": ": https://github.com/betaflight/firmware-presets/pull/141/",
+      "warning": "This preset changes PID loop rate to 3.2k. This is necessary for some BMI270 gyro boards. Please, don't change it back to anything higher than 4k unless you know what you are doing.",
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
     {
       "fullPath": "presets/4.3/filters/ctzsnooze_race.txt",
       "hash": "505a3cf9aff8fc6b861770d3bcafcb61431e2865f3fa10170f8c5cc044b5fea1",
@@ -734,6 +786,30 @@
         "switch"
       ],
       "author": "Betaflight",
+      "description": [
+        "Resets modes and adjustment ranges to 4.3 defaults"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/modes/PDXFPVauxmodes.txt",
+      "hash": "d0a152eb9f6cbd021efc89232ade927cbdce93f6fb6a6615b92bd943500b3231",
+      "options": [],
+      "title": "PDXFPV Aux Modes 4.3",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "MaxWhalen",
       "description": [
         "Resets modes and adjustment ranges to 4.3 defaults"
       ]
