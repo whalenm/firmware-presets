@@ -127,9 +127,9 @@
       "Ivan Efimov (Limon)",
       "Joshua Bardwell",
       "Mark Spatz (UAV Tech)",
-      "MaxWhalen",
       "MinChan Kim",
       "NemesisXB",
+      "PDXFPV",
       "sugarK",
       "SupaflyFPV"
     ],
@@ -792,9 +792,9 @@
     },
     {
       "fullPath": "presets/4.3/modes/PDXFPVauxmodes.txt",
-      "hash": "c2d4766a5085ccab3aaf3555ed7d93fbd36bd35c94a4c666293d6a3528749294",
+      "hash": "82d6ba9482b66c5f00568cf1b179dfeee2c380921521cb962dbe263506e6d1fd",
       "options": [],
-      "title": "PDXFPV Aux Modes 4.3",
+      "title": "PDXFPV Aux Modes 4.3 Official",
       "firmware_version": [
         "4.3"
       ],
@@ -809,7 +809,7 @@
         "aux",
         "switch"
       ],
-      "author": "MaxWhalen",
+      "author": "PDXFPV",
       "description": [
         "Resets modes and adjustment ranges to 4.3 defaults"
       ]

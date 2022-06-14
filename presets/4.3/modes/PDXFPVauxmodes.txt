@@ -4,8 +4,7 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: PDXFPV
-#$ DESCRIPTION: Resets modes and adjustment ranges to 4.3 defaults
-
+#$ DESCRIPTION: All Aux Modes on One Channel
 # aux switch settings
 
 aux 0 0 0 1925 2000 0 0
